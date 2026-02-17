@@ -12,7 +12,9 @@
           <include name="tearDown"/>
           <include name="loadConfig"/>
           <include name="inValidLoginTest" invocation-numbers="0 0 0"/>
+          <include name="verifyValidLoginTest" invocation-numbers="0 0 0"/>
           <include name="close"/>
+          <include name="getTitle"/>
           <include name="setupPages"/>
         </methods>
       </class> <!-- com.orangehrm.test.Login -->

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="317.954" tests="10" errors="0" skipped="6" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Anuradha.k\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\testngspace\OrangeHRM\orangehrmtest\target\test-classes;D:\testngspace\OrangeHRM\orangehrmtest\target\classes;C:\Users\Anuradha.k\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Anuradha.k\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Anuradha.k\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Anuradha.k\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Anuradha.k\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Anuradha.k\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Anuradha.k\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Anuradha.k\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Anuradha.k\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Anuradha.k\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Anuradha.k\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Anuradha.k\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Anuradha.k\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\Anuradha.k\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Anuradha.k\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Anuradha.k\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Anuradha.k\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Anuradha.k\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Anuradha.k\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Anuradha.k\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Anuradha.k\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\Anuradha.k\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Anuradha.k\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Anuradha.k\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anuradha.k\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Anuradha.k\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Anuradha.k\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Anuradha.k\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\Anuradha.k\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\Anuradha.k\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\Anuradha.k\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Anuradha.k\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Anuradha.k\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="D:\java11\openJDK\openlogic-openjdk-17.0.10+7-windows-x64\bin"/>
+    <property name="sun.java.command" value="C:\Users\Anuradha.k\AppData\Local\Temp\surefire15052410468365934087\surefirebooter18293554498437491340.jar C:\Users\Anuradha.k\AppData\Local\Temp\surefire15052410468365934087 2026-02-17T16-28-56_904-jvmRun1 surefire6020723540812187482tmp surefire_08001647376468847883tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\testngspace\OrangeHRM\orangehrmtest\target\test-classes;D:\testngspace\OrangeHRM\orangehrmtest\target\classes;C:\Users\Anuradha.k\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Anuradha.k\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Anuradha.k\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Anuradha.k\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Anuradha.k\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Anuradha.k\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Anuradha.k\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Anuradha.k\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Anuradha.k\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Anuradha.k\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Anuradha.k\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Anuradha.k\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Anuradha.k\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\Anuradha.k\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\Anuradha.k\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\Anuradha.k\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Anuradha.k\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Anuradha.k\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Anuradha.k\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Anuradha.k\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Anuradha.k\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Anuradha.k\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Anuradha.k\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\Anuradha.k\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Anuradha.k\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Anuradha.k\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anuradha.k\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Anuradha.k\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Anuradha.k\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Anuradha.k\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\Anuradha.k\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\Anuradha.k\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\Anuradha.k\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\Anuradha.k\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Anuradha.k\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\Anuradha.k\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Anuradha.k\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Anuradha.k"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="D:\java11\openJDK\openlogic-openjdk-17.0.10+7-windows-x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="D:\testngspace\OrangeHRM\orangehrmtest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anuradha.k\AppData\Local\Temp\surefire15052410468365934087\surefirebooter18293554498437491340.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+7-adhoc..jdk17u"/>
+    <property name="user.name" value="anuradha.k"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="C:\Users\Anuradha.k\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Anuradha.k\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="D:\testngspace\OrangeHRM\orangehrmtest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="appURL" value="http://maven.apache.org"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\java11\openJDK\openlogic-openjdk-17.0.10+7-windows-x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Anuradha.k/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;C:/Users/Anuradha.k/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\app\Admin\product\21c\dbhomeXE\bin;D:\Oracledatabasefolder\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\dotnet\;D:\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\Anuradha.k\AppData\Local\Programs\tenjin-agent;C:\Program Files\nodejs\;C:\Users\Anuradha.k\AppData\Local\Android\Sdk\tools;C:\Users\Anuradha.k\AppData\Local\Android\Sdk\tools\bin;C:\Users\Anuradha.k\AppData\Local\Android\Sdk\platform-tools;D:\java11\jdk-11\bin;C:\Users\Anuradha.k\AppData\Local\Microsoft\WindowsApps;C:\Users\Anuradha.k\AppData\Local\Programs\Git\cmd;C:\Users\Anuradha.k\AppData\Roaming\npm;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="17.0.10+7-adhoc..jdk17u"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifyGetUserAPI" classname="com.orangehrm.test.ApiTest" time="2.069"/>
+  <testcase name="getTitle" classname="com.orangehrm.test.Login" time="0">
+    <skipped message="Admin tab should be visible after successfull login  expected [true] but found [false]"/>
+    <system-out><![CDATA[2026-02-17 16:29:11 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:29:16 [TestNG-test-orangehrm-1] INFO  Login - Login-getMethod
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:29:19 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:29:49 [TestNG-test-orangehrm-1] ERROR ActionDriver - Element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\Anuradha.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50096}, goog:processID: 31748, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50096/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e29c84cb592c6f41b38890246b38bef6
+2026-02-17 16:29:49 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:29:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:29:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="getTitle" classname="com.orangehrm.test.Login" time="0">
+    <skipped message="Admin tab should be visible after successfull login  expected [true] but found [false]"/>
+    <system-out><![CDATA[2026-02-17 16:29:56 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:30:00 [TestNG-test-orangehrm-1] INFO  Login - Login-getMethod
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:30:32 [TestNG-test-orangehrm-1] ERROR ActionDriver - Element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\Anuradha.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54648}, goog:processID: 24156, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54648/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a0154e170d0afbf20aa0e32796d3aa
+2026-02-17 16:30:32 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:29:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:29:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="getTitle" classname="com.orangehrm.test.Login" time="32.449">
+    <failure message="Admin tab should be visible after successfull login  expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Admin tab should be visible after successfull login  expected [true] but found [false]
+	at com.orangehrm.test.Login.getTitle(Login.java:41)
+]]></failure>
+    <system-out><![CDATA[2026-02-17 16:30:39 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:30:43 [TestNG-test-orangehrm-1] INFO  Login - Login-getMethod
+2026-02-17 16:30:44 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:31:15 [TestNG-test-orangehrm-1] ERROR ActionDriver - Element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\Anuradha.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55488}, goog:processID: 16720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55488/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f52ba80d86cc775aeae1ee1210df7fcc
+2026-02-17 16:31:15 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:30:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:30:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="inValidLoginTest" classname="com.orangehrm.test.Login" time="0">
+    <skipped message="Test Failed: Invalid error message expected [true] but found [false]"/>
+    <system-out><![CDATA[2026-02-17 16:31:23 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:31:28 [TestNG-test-orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-17 16:31:29 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:31:29 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:31:30 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:31:30 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-17 16:31:30 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:31:30 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:31:33 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-17 16:31:33 [TestNG-test-orangehrm-1] ERROR ActionDriver - Texts are not Matching:Invalid credentials not equals valid credentials
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:31:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:31:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="inValidLoginTest" classname="com.orangehrm.test.Login" time="0">
+    <skipped message="Test Failed: Invalid error message expected [true] but found [false]"/>
+    <system-out><![CDATA[2026-02-17 16:31:40 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:31:45 [TestNG-test-orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:31:48 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:31:49 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-17 16:31:49 [TestNG-test-orangehrm-1] ERROR ActionDriver - Texts are not Matching:Invalid credentials not equals valid credentials
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:31:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:31:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="inValidLoginTest" classname="com.orangehrm.test.Login" time="3.84">
+    <failure message="Test Failed: Invalid error message expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Test Failed: Invalid error message expected [true] but found [false]
+	at com.orangehrm.test.Login.inValidLoginTest(Login.java:68)
+]]></failure>
+    <system-out><![CDATA[2026-02-17 16:31:56 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:32:00 [TestNG-test-orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:32:04 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-17 16:32:04 [TestNG-test-orangehrm-1] ERROR ActionDriver - Texts are not Matching:Invalid credentials not equals valid credentials
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:31:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:31:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyValidLoginTest" classname="com.orangehrm.test.Login" time="0">
+    <skipped message="Admin tab should be visible after successfull login  expected [true] but found [false]"/>
+    <system-out><![CDATA[2026-02-17 16:32:11 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:32:15 [TestNG-test-orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-17 16:32:16 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:32:16 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:32:16 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:32:17 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:32:17 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:32:17 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:32:47 [TestNG-test-orangehrm-1] ERROR ActionDriver - Element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\Anuradha.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53709}, goog:processID: 6496, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53709/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf4ad52d04843b01d6bd56f4a9201ad
+2026-02-17 16:32:47 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:32:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:32:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyValidLoginTest" classname="com.orangehrm.test.Login" time="0">
+    <skipped message="Admin tab should be visible after successfull login  expected [true] but found [false]"/>
+    <system-out><![CDATA[2026-02-17 16:32:54 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:32:59 [TestNG-test-orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:33:03 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:33:33 [TestNG-test-orangehrm-1] ERROR ActionDriver - Element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\Anuradha.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56398}, goog:processID: 15240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56398/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea7a382fe458b3b70ec16172d8034897
+2026-02-17 16:33:33 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:32:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:32:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyValidLoginTest" classname="com.orangehrm.test.Login" time="31.81">
+    <failure message="Admin tab should be visible after successfull login  expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Admin tab should be visible after successfull login  expected [true] but found [false]
+	at com.orangehrm.test.Login.verifyValidLoginTest(Login.java:53)
+]]></failure>
+    <system-out><![CDATA[2026-02-17 16:33:40 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:33:44 [TestNG-test-orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-17 16:33:44 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:33:44 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:33:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:33:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:33:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:33:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:34:15 [TestNG-test-orangehrm-1] ERROR ActionDriver - Element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\Anuradha.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63702}, goog:processID: 2084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63702/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 473cb2b4095c6a3b2405beff78e89682
+2026-02-17 16:34:15 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+]]></system-out>
+    <system-err><![CDATA[Feb 17, 2026 4:33:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 17, 2026 4:33:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.135. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

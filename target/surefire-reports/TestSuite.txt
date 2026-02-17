@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 317.954 s <<< FAILURE! - in TestSuite
+com.orangehrm.test.Login.getTitle  Time elapsed: 32.449 s  <<< FAILURE!
+java.lang.AssertionError: Admin tab should be visible after successfull login  expected [true] but found [false]
+	at com.orangehrm.test.Login.getTitle(Login.java:41)
+
+com.orangehrm.test.Login.inValidLoginTest  Time elapsed: 3.84 s  <<< FAILURE!
+java.lang.AssertionError: Test Failed: Invalid error message expected [true] but found [false]
+	at com.orangehrm.test.Login.inValidLoginTest(Login.java:68)
+
+com.orangehrm.test.Login.verifyValidLoginTest  Time elapsed: 31.81 s  <<< FAILURE!
+java.lang.AssertionError: Admin tab should be visible after successfull login  expected [true] but found [false]
+	at com.orangehrm.test.Login.verifyValidLoginTest(Login.java:53)
+

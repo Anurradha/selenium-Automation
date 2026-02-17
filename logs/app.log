@@ -1,0 +1,164 @@
+2026-02-16 16:13:18 [main] INFO  BaseClass - properties file loaded
+2026-02-16 16:13:26 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:13:31 [TestNG-test=orangehrm-1] INFO  Login - Login-getMethod
+2026-02-16 16:13:32 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:13:32 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:13:32 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:13:32 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-16 16:13:32 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:13:32 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:14:03 [TestNG-test=orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-16 16:14:10 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:14:15 [TestNG-test=orangehrm-1] INFO  Login - Login-getMethod
+2026-02-16 16:14:16 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:14:16 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:14:16 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:14:16 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-16 16:14:16 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:14:16 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:14:46 [TestNG-test=orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-16 16:14:54 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:14:59 [TestNG-test=orangehrm-1] INFO  Login - Login-getMethod
+2026-02-16 16:15:00 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:15:00 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:15:00 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:15:00 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-16 16:15:00 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:15:01 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:15:31 [TestNG-test=orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-16 16:15:39 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:15:44 [TestNG-test=orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-16 16:15:45 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:15:46 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:15:46 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:15:46 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-16 16:15:46 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:15:46 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:15:49 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-16 16:15:56 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:16:01 [TestNG-test=orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-16 16:16:03 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:16:03 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:16:03 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:16:03 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-16 16:16:03 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:16:04 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:16:07 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-16 16:16:14 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:16:19 [TestNG-test=orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-16 16:16:21 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:16:22 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:16:22 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:16:22 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-16 16:16:22 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:16:22 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:16:29 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-16 16:16:36 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:16:41 [TestNG-test=orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-16 16:16:43 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:16:43 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:16:43 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:16:43 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-16 16:16:44 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:16:44 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:17:14 [TestNG-test=orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-16 16:17:21 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:17:26 [TestNG-test=orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-16 16:17:27 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:17:27 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:17:27 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:17:27 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-16 16:17:27 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:17:31 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:18:01 [TestNG-test=orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-16 16:18:08 [TestNG-test=orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-16 16:18:13 [TestNG-test=orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-16 16:18:14 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-16 16:18:14 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-16 16:18:14 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-16 16:18:14 [TestNG-test=orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-16 16:18:14 [TestNG-test=orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-16 16:18:14 [TestNG-test=orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-16 16:18:45 [TestNG-test=orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-17 16:29:00 [main] INFO  BaseClass - properties file loaded
+2026-02-17 16:29:11 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:29:16 [TestNG-test-orangehrm-1] INFO  Login - Login-getMethod
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:29:18 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:29:19 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:29:49 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-17 16:29:56 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:30:00 [TestNG-test-orangehrm-1] INFO  Login - Login-getMethod
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:30:01 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:30:32 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-17 16:30:39 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:30:43 [TestNG-test-orangehrm-1] INFO  Login - Login-getMethod
+2026-02-17 16:30:44 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:30:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:31:15 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-17 16:31:23 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:31:28 [TestNG-test-orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-17 16:31:29 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:31:29 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:31:30 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:31:30 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-17 16:31:30 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:31:30 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:31:33 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-17 16:31:40 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:31:45 [TestNG-test-orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-17 16:31:46 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:31:48 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:31:49 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-17 16:31:56 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:32:00 [TestNG-test-orangehrm-1] INFO  Login - Login-InvalidMethod
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin@123
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:32:02 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:32:04 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color red to element:// Element with text: Invalid credentials
+2026-02-17 16:32:11 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:32:15 [TestNG-test-orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-17 16:32:16 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:32:16 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:32:16 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:32:17 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:32:17 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:32:17 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:32:47 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-17 16:32:54 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:32:59 [TestNG-test-orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:33:00 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:33:03 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:33:33 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']
+2026-02-17 16:33:40 [TestNG-test-orangehrm-1] INFO  BaseClass - Browser Launched23
+2026-02-17 16:33:44 [TestNG-test-orangehrm-1] INFO  Login - Login-VerifyValidLogin
+2026-02-17 16:33:44 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: username
+2026-02-17 16:33:44 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-02-17 16:33:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with name: password
+2026-02-17 16:33:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-02-17 16:33:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - Applied the border with color green to element:// Element with text: Login
+2026-02-17 16:33:45 [TestNG-test-orangehrm-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-02-17 16:34:15 [TestNG-test-orangehrm-1] INFO  ActionDriver - Element is displayed Element located using: By.xpath: //span[text()='Admin']

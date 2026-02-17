@@ -7,6 +7,7 @@ import java.util.Properties;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
@@ -68,7 +69,17 @@ Thread.sleep(5000);
 
 		if (browser.equals("chrome")) {
 			//driver = new ChromeDriver();
-			driver.set(new ChromeDriver());
+			//driver.set(new ChromeDriver());
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless"); // Run Chrome in headless mode
+			options.addArguments("--disable-gpu"); // Disable GPU for headless mode
+			//options.addArguments("--window-size=1920,1080"); // Set window size
+			options.addArguments("--disable-notifications"); // Disable browser notifications
+			options.addArguments("--no-sandbox"); // Required for some CI environments like Jenkins
+			options.addArguments("--disable-dev-shm-usage"); // Resolve issues in resource-limited environments
+
+			// driver = new ChromeDriver();
+			driver.set(new ChromeDriver(options)); 
 			ExtentManager.registerDriver(getDriver());
 		} else if (browser.equals("edge")) {
 			//driver = new EdgeDriver();
